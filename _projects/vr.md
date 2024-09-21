@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Virtual Reality Obstacle Course Game
+description: An Apocalypse Hellscape Setting Virtual Reality Game
+img: assets/img/vr.gif
+importance: 2
+category: VR & AR
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

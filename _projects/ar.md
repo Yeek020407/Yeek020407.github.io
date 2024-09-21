@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Another Realm
+description: Holiday-themed Augmented Reality App that beautify Real-World Environment and Face
+img: assets/img/ar.png
+importance: 2
+category: VR & AR
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

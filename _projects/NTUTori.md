@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: NTUTori
+description: Student Marketplace for Second-Hand Trading
+img: assets/img/NTUTori.jpeg
 importance: 2
-category: work
+category: Software
 giscus_comments: true
 ---
 

@@ -1,0 +1,87 @@
+{
+    "name": "Oi Yeek Sheng",
+    "contact": {
+      "phone": "+65 8920 0447",
+      "email": "oiye0001@e.ntu.edu.sg",
+      "linkedin": "https://linkedin.com/in/yeeksheng/",
+      "github": "https://github.com/Yeek020407"
+    },
+    "education": {
+      "university": "Nanyang Technological University, Singapore",
+      "degree": "Bachelor of Computing (Honours) in Computer Science",
+      "duration": "Aug 2021 – Jul 2025",
+      "cgpa": "4.53/5.00 (Highest Distinction)"
+    },
+    "work_experience": [
+      {
+        "company": "AV Media Pte Ltd",
+        "role": "Software Engineer Intern",
+        "duration": "Jun 2024 – Present",
+        "responsibilities": [
+          "Developed a speech-to-text feature with auto language detection using Azure Speech Services.",
+          "Utilised Azure Document Intelligence for enhanced information processing before integrating with Azure AI Search.",
+          "Designed an avatar front-end for an interactive receptionist, providing seamless real-time visitor interaction."
+        ]
+      },
+      {
+        "company": "Integro Technologies Pte Ltd",
+        "role": "Software Engineer Intern",
+        "duration": "Jan 2024 – May 2024",
+        "responsibilities": [
+          "Implemented a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences.",
+          "Engineered a MongoDB-based scheduler within a Microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server."
+        ]
+      },
+      {
+        "company": "BioKube Asia Pacific Pte Ltd",
+        "role": "Software Engineer Intern",
+        "duration": "Jul 2023 – Dec 2023",
+        "responsibilities": [
+          "Enhanced a .NET application by reducing response times for remote accessing by over 50%.",
+          "Implemented sewage treatment log storage on Azure, featuring a graphical representation of historical data.",
+          "Developed an Azure Function, triggered by CRON jobs, to automatically send email alerts about treatment system malfunctions, enhancing system reliability and user responsiveness."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Exploiting Image Prior For Super-Resolution",
+        "duration": "Aug 2024 – Present",
+        "supervisor": "Prof. Loy Chen Change",
+        "description": "Develop a super-resolution approach leveraging deep generative priors to achieve improved contextual relevance in high-resolution outputs."
+      },
+      {
+        "title": "NTUTori: Student Marketplace for Second-Hand Trading",
+        "duration": "Aug 2024 – Present",
+        "description": [
+          "Develop product microservice with CRUD operations using Spring Boot and Azure Blob Storage for product listings and images.",
+          "Design PostgreSQL schema and integrate advanced pgvector-based search for efficient embedding/vector searches and enhanced user experience.",
+          "Implement pub/sub architecture with message queues for real-time notifications and auto-order features, ensuring optimal user interaction."
+        ]
+      },
+      {
+        "title": "Multidisciplinary Design Project",
+        "duration": "Aug 2023 – Nov 2023",
+        "description": [
+          "Designed and optimized robotic pathfinding with a modified A* algorithm, leveraging multiprocessing and parallel brute force for enhanced efficiency.",
+          "Achieved 5th place for Task 1, secured 2nd place for Task 2, and selected as the top group to showcase the project at NTU Open House."
+        ]
+      },
+      {
+        "title": "FindR: E-commerce Price Comparison Web Application",
+        "duration": "Aug 2022 – Oct 2022",
+        "description": [
+          "Co-developed a full-stack Django, React, and PostgreSQL application for e-commerce price comparison, supporting robust search and filter capabilities.",
+          "Implemented web scraping techniques using BeautifulSoup and Selenium to obtain product information from Shopee, Lazada, and Amazon.",
+          "Deployed web application using Azure App Service, ensuring scalability and optimal performance."
+        ]
+      }
+    ],
+    "technical_skills": {
+      "programming_languages": ["Java", "Python", "JavaScript", "C#", "SQL", "PostgreSQL"],
+      "libraries_frameworks": ["Spring", "Django", ".NET", "ReactJs", "Pytorch"],
+      "tools": ["Microsoft Azure", "Unity", "Git", "STM32", "Raspberry Pi"],
+      "interest": "Contributions to Open-Source projects"
+    }
+  }
+  
