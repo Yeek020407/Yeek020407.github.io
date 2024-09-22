@@ -4,7 +4,6 @@
     "image": "",
     "email": "oiye0001@e.ntu.edu.sg",
     "phone": "+65 8920 0447",
-    "url": "https://linkedin.com/in/yeeksheng/",
     "location": {
       "city": "Singapore"
     },
@@ -40,7 +39,8 @@
       "endDate": "",
       "highlights": ["Developed a speech-to-text feature with auto language detection using Azure Speech Services.",
           "Utilised Azure Document Intelligence for enhanced information processing before integrating with Azure AI Search.",
-          "Designed an avatar front-end for an interactive receptionist, providing seamless real-time visitor interaction."]
+          "Designed an avatar front-end for an interactive receptionist, providing seamless real-time visitor interaction."],
+      "url": "https://avmedia.com.sg/"
     },
     {
       "name": "Integro Technologies Pte Ltd",
@@ -48,7 +48,8 @@
       "startDate": "2024-01",
       "endDate": "2024-05",
       "highlights": ["Implemented a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences.",
-          "Engineered a MongoDB-based scheduler within a Microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server."]
+          "Engineered a MongoDB-based scheduler within a Microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server."],
+      "url": "https://www.integrosys.com/"
     },
     {
       "name": "BioKube Asia Pacific Pte Ltd",
@@ -83,6 +84,15 @@
       "url": ""
     },
     {
+      "name": "Open Source Contribution to CVAT",
+      "summary": "Contributed to the CVAT project by fixing a critical issue",
+      "highlights": ["Fixed the import of outside track shapes in Datumaro-based formats.",
+                      "Developed and integrated more than 10 robust test cases using Pytest."],
+      "startDate": "2024-04",
+      "endDate": "2024-05",
+      "url": "https://github.com/cvat-ai/cvat/pull/7669"
+    },
+    {
       "name": "Multidisciplinary Design Project",
       "highlights": [
         "Designed and optimized robotic pathfinding with a modified A* algorithm using multiprocessing and parallel brute force.",
@@ -90,7 +100,7 @@
       ],
       "startDate": "2023-08",
       "endDate": "2023-11",
-      "url": ""
+      "url": "https://www.youtube.com/watch?v=ybGPwnKlh0U"
     },
     {
       "name": "Another-Realm",
