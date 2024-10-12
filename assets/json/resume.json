@@ -37,9 +37,12 @@
       "position": "Software Engineer Intern",
       "startDate": "2024-06",
       "endDate": "",
-      "highlights": ["Developed a speech-to-text feature with auto language detection using Azure Speech Services.",
-          "Utilised Azure Document Intelligence for enhanced information processing before integrating with Azure AI Search.",
-          "Designed an avatar front-end for an interactive receptionist, providing seamless real-time visitor interaction."],
+      "highlights": [
+        "Architected a full-stack avatar receptionist application for Nanyang Business School using Flask and React.",
+        "Established real-time, bidirectional communication between frontend and backend via WebSocket technology, enhancing user experience with seamless interactions.",
+        "Crafted an LLM pipeline leveraging Retrieval-augmented generation (RAG) with function-calling capabilities, expanding the system’s ability to handle complex queries."
+
+      ],
       "url": "https://avmedia.com.sg/"
     },
     {
@@ -47,8 +50,11 @@
       "position": "Software Engineer Intern",
       "startDate": "2024-01",
       "endDate": "2024-05",
-      "highlights": ["Implemented a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences.",
-          "Engineered a MongoDB-based scheduler within a Microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server."],
+      "highlights": [
+        "Devised a MongoDB-based scheduler within a Spring Boot microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server.",
+        "Created a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences."
+
+      ],
       "url": "https://www.integrosys.com/"
     },
     {
@@ -56,9 +62,12 @@
       "position": "Software Engineer Intern",
       "startDate": "2023-07",
       "endDate": "2023-12",
-      "highlights": ["Enhanced a .NET application by reducing response times for remote accessing by over 50%.",
-          "Implemented sewage treatment log storage on Azure, featuring a graphical representation of historical data.",
-          "Developed an Azure Function, triggered by CRON jobs, to automatically send email alerts about treatment system malfunctions, enhancing system reliability and user responsiveness."]
+      "highlights": [
+        "Optimised a .NET application by refining Modbus communication between PLC and application, effectively reducing response times for remote accessing by over 50%.",
+        "Integrated sewage treatment log storage on Azure, featuring a graphical representation of historical data.",
+        "Developed an Azure Function with CRON-triggered monitoring to continuously assess system health, automatically dispatching email alerts for detected malfunctions or anomalies."
+
+      ]
     }
   ],
   "projects": [
@@ -75,9 +84,10 @@
       "name": "NTUTori",
       "summary": "Student Marketplace for Second-Hand Trading",
       "highlights": [
-        "Developed product microservice with CRUD operations using Spring Boot and Azure Blob Storage for product listings and images.",
-        "Designed PostgreSQL schema with pgvector-based search for enhanced embedding/vector searches and improved user experience.",
-        "Implemented pub/sub architecture for real-time notifications and auto-order features."
+        "Co-developed a marketplace platform featuring an innovative auto-bidding algorithm and streamlined order-placement for second-hand items",
+        "Engineered a scalable microservices backend infrastructure using Spring Boot and PostgreSQL, enabling modular development and improving system resilience and maintainability.",
+        "Integrated gRPC for inter-service communication, boosting data transfer efficiency, ensuring seamless user experience even under high load.",
+        "Leveraged Google Cloud Pub/Sub to implement a highly scalable event-driven architecture, enabling 10x traffic spike handling without performance degradation and facilitating seamless service decoupling."
       ],
       "startDate": "2024-08",
       "endDate": "",
@@ -95,7 +105,8 @@
     {
       "name": "Multidisciplinary Design Project",
       "highlights": [
-        "Designed and optimized robotic pathfinding with a modified A* algorithm using multiprocessing and parallel brute force.",
+        "Designed and optimised robotic pathfinding with a modified A* algorithm, harnessing multiprocessing and parallel exhaustive search techniques for enhanced efficiency.",
+        "Developed a multithreaded connection hub on Raspberry Pi (Debian Linux) to integrate and control diverse components, including camera, algorithm processing, STM32 board, and Android interface.",
         "Achieved 5th place for Task 1 and secured 2nd place for Task 2 in the competition."
       ],
       "startDate": "2023-08",
@@ -130,9 +141,8 @@
       "name": "FindR",
       "summary": "E-Commerce Cross-Platform Price Comparison App",
       "highlights": [
-        "Co-developed a full-stack Django, React, and PostgreSQL application for e-commerce price comparison.",
-        "Implemented web scraping using BeautifulSoup and Selenium to gather product information from Shopee, Lazada, and Amazon.",
-        "Deployed the application using Azure App Service for scalability and optimal performance."
+        "Architected and developed a full-stack Django, React, and PostgreSQL application for e-commerce price comparison, featuring robust search and filtering capabilities.",
+        "Implemented web scraping algorithm with BeautifulSoup and Selenium to extract product information from Shopee, Lazada and Amazon."
       ],
       "startDate": "2022-08",
       "endDate": "2022-10",
