@@ -28,7 +28,7 @@
       "studyType": "Bachelor of Computing (Honours) in Computer Science",
       "startDate": "2021-08",
       "endDate": "2025-07",
-      "courses": ["CGPA: 4.53/5.00 (Highest Distinction)", "MOE Tuition Grant Holder"]
+      "courses": ["CGPA: 4.53/5.00 (Highest Distinction)", "MOE Tuition Grant Holder", "Dean's List for AY23-24"]
     }
   ],
   "work": [
@@ -90,7 +90,7 @@
         "Leveraged Google Cloud Pub/Sub to implement a highly scalable event-driven architecture, enabling 10x traffic spike handling without performance degradation and facilitating seamless service decoupling."
       ],
       "startDate": "2024-08",
-      "endDate": "",
+      "endDate": "2024-11",
       "url": ""
     },
     {
