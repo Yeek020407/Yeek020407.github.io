@@ -1,221 +1,263 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Oi Yeek Sheng",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "oiye0001@e.ntu.edu.sg",
+    "phone": "+65 8920 0447",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Singapore"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yeeksheng",
+        "url": "https://linkedin.com/in/yeeksheng/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Yeek020407",
+        "url": "https://github.com/Yeek020407"
+      }
+    ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Nanyang Technological University",
+      "location": "Singapore",
+      "url": "https://www.ntu.edu.sg/",
+      "studyType": "Bachelor of Computing in Computer Science with Honours",
+      "startDate": "2021-08",
+      "endDate": "2025-07",
+      "courses": ["Specialization - Artificial Intelligence", "CGPA: 4.61/5.00 (Highest Distinction)", "MOE Tuition Grant Holder", "CCDS Dean’s List (2023-2024, 2024-2025)"]
     }
   ],
-  "awards": [
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "AV Media Pte Ltd",
+      "position": "Software Engineer Intern",
+      "startDate": "2024-06",
+      "endDate": "",
+      "highlights": [
+        "Architected a full-stack avatar receptionist application for Nanyang Business School using Flask and React.",
+        "Established real-time, bidirectional communication between frontend and backend via WebSocket technology, enhancing user experience with seamless interactions.",
+        "Crafted an LLM pipeline leveraging Retrieval-augmented generation (RAG) with function-calling capabilities, expanding the system’s ability to handle complex queries."
+
+      ],
+      "url": "https://avmedia.com.sg/"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Integro Technologies Pte Ltd",
+      "position": "Software Engineer Intern",
+      "startDate": "2024-01",
+      "endDate": "2024-05",
+      "highlights": [
+        "Devised a MongoDB-based scheduler within a Spring Boot microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server.",
+        "Created a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences."
+
+      ],
+      "url": "https://www.integrosys.com/"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "name": "BioKube Asia Pacific Pte Ltd",
+      "position": "Software Engineer Intern",
+      "startDate": "2023-07",
+      "endDate": "2023-12",
+      "highlights": [
+        "Optimised a .NET application by refining Modbus communication between PLC and application, effectively reducing response times for remote accessing by over 50%.",
+        "Integrated sewage treatment log storage on Azure, featuring a graphical representation of historical data.",
+        "Developed an Azure Function with CRON-triggered monitoring to continuously assess system health, automatically dispatching email alerts for detected malfunctions or anomalies."
+
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Exploiting Image Prior For Super-Resolution",
+      "highlights": [
+        "Developed a super-resolution approach leveraging deep generative priors to achieve improved contextual relevance in high-resolution outputs."
+      ],
+      "startDate": "2024-08",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "NTUTori",
+      "summary": "Student Marketplace for Second-Hand Trading",
+      "highlights": [
+        "Co-developed a marketplace platform featuring an innovative auto-bidding algorithm and streamlined order-placement for second-hand items",
+        "Engineered a scalable microservices backend infrastructure using Spring Boot and PostgreSQL, enabling modular development and improving system resilience and maintainability.",
+        "Integrated gRPC for inter-service communication, boosting data transfer efficiency, ensuring seamless user experience even under high load.",
+        "Leveraged Google Cloud Pub/Sub to implement a highly scalable event-driven architecture, enabling 10x traffic spike handling without performance degradation and facilitating seamless service decoupling."
+      ],
+      "startDate": "2024-08",
+      "endDate": "2024-11",
+      "url": ""
+    },
+    {
+      "name": "Open Source Contribution to CVAT",
+      "summary": "Contributed to the CVAT project by fixing a critical issue",
+      "highlights": ["Fixed the import of outside track shapes in Datumaro-based formats.",
+                      "Developed and integrated more than 10 robust test cases using Pytest."],
+      "startDate": "2024-04",
+      "endDate": "2024-05",
+      "url": "https://github.com/cvat-ai/cvat/pull/7669"
+    },
+    {
+      "name": "Multidisciplinary Design Project",
+      "highlights": [
+        "Designed and optimised robotic pathfinding with a modified A* algorithm, harnessing multiprocessing and parallel exhaustive search techniques for enhanced efficiency.",
+        "Developed a multithreaded connection hub on Raspberry Pi (Debian Linux) to integrate and control diverse components, including camera, algorithm processing, STM32 board, and Android interface.",
+        "Achieved 5th place for Task 1 and secured 2nd place for Task 2 in the competition."
+      ],
+      "startDate": "2023-08",
+      "endDate": "2023-11",
+      "url": "https://www.youtube.com/watch?v=ybGPwnKlh0U"
+    },
+    {
+      "name": "Another-Realm",
+      "summary": "Holiday-themed Augmented Reality App that beautify Real-World Environment and Face",
+      "highlights": [
+        "Led a team of 4 members to develop Another-Realm, an augmented reality mobile app with festive themes.",
+        "Created face filters and 3D objects for 4 holiday themes using Adobe Photoshop and Blender.",
+        "Implemented optimized rendering techniques for smooth and realistic 3D object rendering in real-world environments."
+      ],
+      "startDate": "2023-03",
+      "endDate": "2023-05",
+      "url": "https://github.com/Yeek020407/Another-Realm"
+    },
+    {
+      "name": "Virtual Reality Obstacle Course Game",
+      "summary": "An Apocalypse Hellscape Setting Virtual Reality Game",
+      "highlights": [
+        "Led a team of 5 members to develop MOBLIMA, a virtual reality obstacle course game using Unity and Oculus Rift.",
+        "Created interactable 3D models with realistic physics to enhance user engagement.",
+        "Used C# to enable smooth user movement and interaction with the game environment."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-03",
+      "url": "https://github.com/Yeek020407/Obstacle-Course-VR-Game"
+    },
+    {
+      "name": "FindR",
+      "summary": "E-Commerce Cross-Platform Price Comparison App",
+      "highlights": [
+        "Architected and developed a full-stack Django, React, and PostgreSQL application for e-commerce price comparison, featuring robust search and filtering capabilities.",
+        "Implemented web scraping algorithm with BeautifulSoup and Selenium to extract product information from Shopee, Lazada and Amazon."
+      ],
+      "startDate": "2022-08",
+      "endDate": "2022-10",
+      "url": "https://github.com/Yeek020407/FindR"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Web Application Technologies and Django",
+      "date": "2022 Oct",
+      "issuer": "University of Michigan",
+      "url": "https://www.coursera.org/account/accomplishments/records/LZRQC3K6RFPV",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "IBM Full Stack Software Developer",
+      "date": "2023 Jan",
+      "issuer": "Udemy",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/MSFYJK2DMW7B",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Spring Boot 3, Spring 6 & Hibernate for Beginners",
+      "date": "2024 Feb",
+      "issuer": "Udemy",
+      "url": "https://www.ude.my/UC-9b3cc329-14dd-4e6e-9f38-8aad9e7ce53f",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "React - The Complete Guide 2024 (incl. Next.js, Redux)",
+      "date": "2024 May",
+      "issuer": "Udemy",
+      "url": "https://www.ude.my/UC-c4460efb-379a-43fb-9a4b-9d7411517132",
+      "icon": "fa-solid fa-location-dot"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "C#",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Libraries & Frameworks",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Spring Boot",
+        "React",
+        "Hibernate",
+        "Django",
+        "jQuery"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Software Engineering",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Distributed Systems",
+        "Microservices",
+        "Web Development",
+        "Database Management"
+      ]
+    },
+    {
+      "name":"Artificial Intelligence",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Computer Vision",
+        "Natural Language Processing",
+        "Neural Network",
+        "Diffusion Models",
+        "Large Language Models"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Rotaract Club of NTU",
+      "location": "Singapore",
+      "position": "Sub-Committee",
+      "url": "https://www.linkedin.com/company/rotaract-club-of-ntu/about/",
+      "startDate": "2022-08",
+      "endDate": "2024-07",
+      "highlights": ["Planned Ah Gong Ah Ma (AGAM) project, a community service endeavour aimed at enhancing the well-being of seniors residing in THK Beo Crescent.","Conducted door-to-door visits to elderly homes to raise awareness about the services and opportunities provided by the active ageing centre, CareElderly."]
+    },
+    {
+      "organization": "Leo Club of SMJK Keat Hwa",
+      "location": "Malaysia",
+      "position": "President, Secretary, Assistant Secretary, IT Director",
+      "startDate": "2015-08",
+      "endDate": "2019-07",
+      "highlights": ["Awarded Regional Top Leo President in 2019 for District 308 B2 (Malaysia)",
+                    "Successfully organised a two-day event, Leolympics, and Leo Quiz, tailored for Leos across Region 2, culminating in the selection of regional representatives for the district-level competition.",
+                    "Spearheaded several impactful community service initiatives, including 'Celebrating Mid-Autumn with Rumah Superkids,' facilitating Blood Donation drives, and coordinating efforts for World Kidney Day"]
+    }
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native or bilingual proficiency",
+      "icon": ""
     }
   ]
 }

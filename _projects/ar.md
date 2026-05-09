@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Another Realm
+description: Holiday-themed Augmented Reality App that beautify Real-World Environment and Face
+img: assets/img/ar.png
 importance: 2
-category: work
+category: VR & AR
 giscus_comments: true
 ---
 
