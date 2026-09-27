@@ -2,7 +2,7 @@
   "basics": {
     "name": "Oi Yeek Sheng",
     "image": "",
-    "email": "oiye0001@e.ntu.edu.sg",
+    "email": "yeek020407@gmail.com",
     "phone": "+65 8920 0447",
     "location": {
       "city": "Singapore"
@@ -20,30 +20,20 @@
       }
     ]
   },
-  "education": [
-    {
-      "institution": "Nanyang Technological University",
-      "location": "Singapore",
-      "url": "https://www.ntu.edu.sg/",
-      "studyType": "Bachelor of Computing in Computer Science with Honours",
-      "startDate": "2021-08",
-      "endDate": "2025-07",
-      "courses": ["Specialization - Artificial Intelligence", "CGPA: 4.61/5.00 (Highest Distinction)", "MOE Tuition Grant Holder", "CCDS Dean’s List (2023-2024, 2024-2025)"]
-    }
-  ],
   "work": [
     {
-      "name": "AV Media Pte Ltd",
-      "position": "Software Engineer Intern",
-      "startDate": "2024-06",
+      "name": "Titansoft Pte Ltd",
+      "position": "Product Developer",
+      "startDate": "2025-08",
       "endDate": "",
       "highlights": [
-        "Architected a full-stack avatar receptionist application for Nanyang Business School using Flask and React.",
-        "Established real-time, bidirectional communication between frontend and backend via WebSocket technology, enhancing user experience with seamless interactions.",
-        "Crafted an LLM pipeline leveraging Retrieval-augmented generation (RAG) with function-calling capabilities, expanding the system’s ability to handle complex queries."
-
+        "Independently redesigned third-party data and status processing, reducing status-related transaction failures from 5–10% to under 1%.",
+        "Conducted load testing with k6 and implemented system stability improvements ahead of a major traffic event; provided production support for a platform with peak concurrency of 100,000 users.",
+        "Upgraded 11+ projects to Kafka KRaft, preserving backward compatibility and completing the migration with zero downtime.",
+        "Implemented Kafka consumer lag alerts to detect processing delays before user reports; built Grafana dashboards to compare feature latency across enabled and non-enabled user groups.",
+        "Use Claude agents for production support investigations and daily development, following a structured workflow of planning, test-driven development (TDD), and implementation."
       ],
-      "url": "https://avmedia.com.sg/"
+      "location": "Singapore"
     },
     {
       "name": "Integro Technologies Pte Ltd",
@@ -51,10 +41,10 @@
       "startDate": "2024-01",
       "endDate": "2024-05",
       "highlights": [
-        "Devised a MongoDB-based scheduler within a Spring Boot microservice to manage retries of failed PDF reorientation tasks, ensuring reliable delivery to the callback server.",
-        "Created a dynamic UI feature in jQuery and JavaScript, allowing users to customise their interface with Material Design preferences."
-
+        "Implemented persistent retries for failed PDF re-orientation callbacks using a MongoDB-backed scheduler; containerized the Spring Boot service with Docker and validated deployment on Kubernetes.",
+        "Developed a jQuery front-end module integrating Google’s Material Design library to modernize the SmartLender interface."
       ],
+      "location": "Singapore",
       "url": "https://www.integrosys.com/"
     },
     {
@@ -63,10 +53,25 @@
       "startDate": "2023-07",
       "endDate": "2023-12",
       "highlights": [
-        "Optimised a .NET application by refining Modbus communication between PLC and application, effectively reducing response times for remote accessing by over 50%.",
-        "Integrated sewage treatment log storage on Azure, featuring a graphical representation of historical data.",
-        "Developed an Azure Function with CRON-triggered monitoring to continuously assess system health, automatically dispatching email alerts for detected malfunctions or anomalies."
-
+        "Refactored Modbus communication in an existing .NET application to improve communication with remote systems.",
+        "Developed a Linux deployment script to provision and manage Azure Virtual Machines, including OpenVPN configuration for secure connectivity to remote IoT systems."
+      ],
+      "location": "Singapore"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Nanyang Technological University",
+      "location": "Singapore",
+      "url": "https://www.ntu.edu.sg/",
+      "studyType": "Bachelor of Computing in Computer Science with Honours",
+      "startDate": "2021-08",
+      "endDate": "2025-05",
+      "courses": [
+        "Specialization: Artificial Intelligence",
+        "Honours (Highest Distinction) | CGPA: 4.61/5.00",
+        "CCDS Dean’s List AY2023/2024, AY2024/2025",
+        "Relevant Coursework: Distributed Systems, Algorithm Design & Analysis, Advanced Software Engineering, Advanced Computer Networks"
       ]
     }
   ],
@@ -84,10 +89,9 @@
       "name": "NTUTori",
       "summary": "Student Marketplace for Second-Hand Trading",
       "highlights": [
-        "Co-developed a marketplace platform featuring an innovative auto-bidding algorithm and streamlined order-placement for second-hand items",
-        "Engineered a scalable microservices backend infrastructure using Spring Boot and PostgreSQL, enabling modular development and improving system resilience and maintainability.",
-        "Integrated gRPC for inter-service communication, boosting data transfer efficiency, ensuring seamless user experience even under high load.",
-        "Leveraged Google Cloud Pub/Sub to implement a highly scalable event-driven architecture, enabling 10x traffic spike handling without performance degradation and facilitating seamless service decoupling."
+        "Developed a second-hand marketplace with automated bidding and order placement, backed by Java Spring Boot microservices and PostgreSQL.",
+        "Integrated Google Cloud Pub/Sub for asynchronous, event-driven communication between services.",
+        "Implemented Redis caching at the API gateway to reduce backend requests and improve response times."
       ],
       "startDate": "2024-08",
       "endDate": "2024-11",
@@ -96,8 +100,10 @@
     {
       "name": "Open Source Contribution to CVAT",
       "summary": "Contributed to the CVAT project by fixing a critical issue",
-      "highlights": ["Fixed the import of outside track shapes in Datumaro-based formats.",
-                      "Developed and integrated more than 10 robust test cases using Pytest."],
+      "highlights": [
+        "Fixed the import of outside track shapes in Datumaro-based formats.",
+        "Developed and integrated more than 10 robust test cases using Pytest."
+      ],
       "startDate": "2024-04",
       "endDate": "2024-05",
       "url": "https://github.com/cvat-ai/cvat/pull/7669"
@@ -149,6 +155,65 @@
       "url": "https://github.com/Yeek020407/FindR"
     }
   ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C#",
+        "Java",
+        "Python",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        ".NET Core",
+        "Spring Boot",
+        "Vue.js",
+        "React",
+        "Django",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Databases & Caching",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Microsoft SQL Server",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Infrastructure & Messaging",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Kubernetes",
+        "Docker",
+        "Linux",
+        "Git",
+        "AWS",
+        "Azure",
+        "Kafka",
+        "Google Cloud Pub/Sub"
+      ]
+    },
+    {
+      "name": "Testing & Development Workflow",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "k6",
+        "Grafana",
+        "Claude agents",
+        "Test-driven development (TDD)"
+      ]
+    }
+  ],
   "certificates": [
     {
       "name": "Web Application Technologies and Django",
@@ -179,30 +244,6 @@
       "icon": "fa-solid fa-location-dot"
     }
   ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "C#",
-        "PostgreSQL"
-      ]
-    },
-    {
-      "name": "Libraries & Frameworks",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Spring Boot",
-        "React",
-        "Hibernate",
-        "Django",
-        "jQuery"
-      ]
-    }
-  ],
   "interests": [
     {
       "name": "Software Engineering",
@@ -215,7 +256,7 @@
       ]
     },
     {
-      "name":"Artificial Intelligence",
+      "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Computer Vision",
@@ -234,7 +275,10 @@
       "url": "https://www.linkedin.com/company/rotaract-club-of-ntu/about/",
       "startDate": "2022-08",
       "endDate": "2024-07",
-      "highlights": ["Planned Ah Gong Ah Ma (AGAM) project, a community service endeavour aimed at enhancing the well-being of seniors residing in THK Beo Crescent.","Conducted door-to-door visits to elderly homes to raise awareness about the services and opportunities provided by the active ageing centre, CareElderly."]
+      "highlights": [
+        "Planned Ah Gong Ah Ma (AGAM) project, a community service endeavour aimed at enhancing the well-being of seniors residing in THK Beo Crescent.",
+        "Conducted door-to-door visits to elderly homes to raise awareness about the services and opportunities provided by the active ageing centre, CareElderly."
+      ]
     },
     {
       "organization": "Leo Club of SMJK Keat Hwa",
@@ -242,21 +286,27 @@
       "position": "President, Secretary, Assistant Secretary, IT Director",
       "startDate": "2015-08",
       "endDate": "2019-07",
-      "highlights": ["Awarded Regional Top Leo President in 2019 for District 308 B2 (Malaysia)",
-                    "Successfully organised a two-day event, Leolympics, and Leo Quiz, tailored for Leos across Region 2, culminating in the selection of regional representatives for the district-level competition.",
-                    "Spearheaded several impactful community service initiatives, including 'Celebrating Mid-Autumn with Rumah Superkids,' facilitating Blood Donation drives, and coordinating efforts for World Kidney Day"]
+      "highlights": [
+        "Awarded Regional Top Leo President in 2019 for District 308 B2 (Malaysia)",
+        "Successfully organised a two-day event, Leolympics, and Leo Quiz, tailored for Leos across Region 2, culminating in the selection of regional representatives for the district-level competition.",
+        "Spearheaded several impactful community service initiatives, including 'Celebrating Mid-Autumn with Rumah Superkids,' facilitating Blood Donation drives, and coordinating efforts for World Kidney Day"
+      ]
     }
-
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native or bilingual proficiency",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "Chinese",
-      "fluency": "Native or bilingual proficiency",
+      "language": "Mandarin",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Malay",
+      "fluency": "Proficient",
       "icon": ""
     }
   ]

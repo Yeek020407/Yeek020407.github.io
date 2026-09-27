@@ -6,8 +6,9 @@ title: Yeek Sheng # the website title (if blank, full name will be used instead)
 first_name: Yeek Sheng
 middle_name:
 last_name: Oi
-email: oiye0001@e.ntu.edu.sg
+email: yeek020407@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Yeek Sheng Oi, software engineer in Singapore. Backend services, distributed systems, and production reliability with .NET, Kafka, and Kubernetes.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
